@@ -1,0 +1,20 @@
+<svg width="320" height="120" viewBox="0 0 320 120" xmlns="http://www.w3.org/2000/svg">
+  <!-- Icon -->
+  <g transform="translate(0,10)">
+    <!-- Left navy triangle with white cutout -->
+    <path d="M0 100 L50 0 L100 100 Z" fill="#003049"/>
+    <path d="M50 20 L60 40 L40 40 Z" fill="#FFFFFF"/>
+    <!-- Right teal triangle -->
+    <path d="M100 100 L150 0 L200 100 Z" fill="#0A9396"/>
+    <!-- Coral swoosh -->
+    <path d="M20 80 C80 20, 140 20, 180 80" stroke="#EE6C4D" stroke-width="14" fill="none" stroke-linecap="round"/>
+  </g>
+
+  <!-- Text -->
+  <text x="220" y="55" font-family="Segoe UI, sans-serif" font-size="42" fill="#1A1A1A" font-weight="700">
+    ANOVO
+  </text>
+  <text x="220" y="90" font-family="Segoe UI, sans-serif" font-size="22" fill="#0A9396" font-weight="600" letter-spacing="2">
+    CONSULTING
+  </text>
+</svg>
