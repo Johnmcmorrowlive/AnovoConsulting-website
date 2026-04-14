@@ -27,15 +27,14 @@ body {
 }
 
 /* Navigation - Modern Sleek */
+
 .navbar {
-    background-color: rgba(15, 23, 42, 0.95);
+    background-color: var(--primary); /* This pulls #0F172A */
     backdrop-filter: blur(10px);
-    color: white;
-    padding: 1.25rem 0;
-    position: sticky;
-    top: 0;
-    z-index: 100;
-    border-bottom: 1px solid rgba(255,255,255,0.1);
+}
+
+.hero {
+    background: radial-gradient(circle at top right, #1E1B4B, var(--primary));
 }
 
 .logo {
