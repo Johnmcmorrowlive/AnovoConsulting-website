@@ -78,15 +78,21 @@ body {
     margin-bottom: 1.5rem;
 }
 
+/* Add space under the sub-headline */
+.hero p {
+    font-size: 1.25rem;
+    margin-bottom: 3rem; /* This creates the gap */
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #CBD5E1;
+}
+
+/* Ensure the button stays as a block element */
 .cta-button {
-    background-color: var(--accent);
-    color: white;
-    padding: 16px 36px;
-    border-radius: 8px;
-    font-weight: 600;
-    text-decoration: none;
-    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-    box-shadow: 0 10px 15px -3px rgba(99, 102, 241, 0.3);
+    display: inline-block;
+    margin-top: 1rem;
+}
 }
 
 .cta-button:hover {
