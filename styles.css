@@ -20,18 +20,25 @@ body {
     background-color: var(--bg-light);
 }
 
-.container {
-    max-width: 1100px;
-    margin: 0 auto;
-    padding: 0 2rem;
+/* Ensure the logo and links sit side-by-side */
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Make the list horizontal and remove bullets */
+.nav-links {
+    display: flex;
+    list-style: none; /* This removes the dots */
+    gap: 2rem;
+    margin: 0;
+    padding: 0;
 }
 
 /* Navigation - Modern Sleek */
 
-.navbar {
-    background-color: var(--primary); /* This pulls #0F172A */
-    backdrop-filter: blur(10px);
-}
+
 
 .hero {
     background: radial-gradient(circle at top right, #1E1B4B, var(--primary));
